@@ -63,6 +63,8 @@ spec:
           timeoutSeconds: 3
         command:
         - /usr/bin/dolphin-operator
+        - "--ingress-default-lb-mode={{ .Values.ingressController.loadbalancerMode | default \"dedicated\" }}"
+        - "--enable-gateway-api={{ .Values.gatewayAPI.enabled | default \"true\" }}"
         env:
         - name: K8S_NODE_NAME
           valueFrom:
@@ -78,14 +80,6 @@ spec:
               name: dolphin-config
               key: debug
               optional: true
-        - name: INGRESS_LB_MODE
-          value: {{ .Values.ingress.ingressDefaultLbMode | ternary "dedicated" "shared" | quote }}
-        - name: ENABLE_GATEWAY_API
-          value: {{ .Values.enableGatewayAPI | quote }}
-        - name: LOG_CONTROLLER_ENABLED
-          value: "{{ .Values.logController.enabled | quote }}"
-        - name: LOG_S3_BUCKET
-          value: "{{ .Values.logController.s3bucket }}"
         volumeMounts:
         - name: dolphin-config-path
           mountPath: /tmp/dolphin/config-map

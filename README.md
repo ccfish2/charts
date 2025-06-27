@@ -1,6 +1,9 @@
 # ctrl-charts
 helm charts of dolphin-operator
+
 ## execcution command
+helm repo add dolphin-operator https://ccfish2.github.io/charts/dolphin-operator/
+helm repo update
 helm install dolphin-operator ./dolphin-operator --namespace dolphin --create-namespace
 
 helm upgrade dolphin-operator ./dolphin-operator \
