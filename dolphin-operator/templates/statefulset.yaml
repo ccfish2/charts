@@ -63,8 +63,8 @@ spec:
           timeoutSeconds: 3
         command:
         - /usr/bin/dolphin-operator
-        - "--ingress-default-lb-mode={{ .Values.ingressController.loadbalancerMode | default \"dedicated\" }}"
-        - "--enable-gateway-api={{ .Values.gatewayAPI.enabled | default \"true\" }}"
+        - "--ingress-default-lb-mode={{ .Values.ingressController.loadbalancerMode | default "dedicated" }}"
+        - "--enable-gateway-api={{ .Values.gatewayAPI.enabled | default "true" }}"
         env:
         - name: K8S_NODE_NAME
           valueFrom:
