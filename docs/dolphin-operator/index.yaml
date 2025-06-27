@@ -3,12 +3,12 @@ entries:
   dolphin-operator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-26T19:01:54.810399-07:00"
+    created: "2025-06-26T19:09:45.610848-07:00"
     description: A Helm chart for Kubernetes
-    digest: 931f82c98d6e50982432004d95701a81e3a2c0a7e3114886d525c63b2ea44ebc
+    digest: e5d4fad96a15666747323678eb3d4f53663c9cf60ec4a2b81fff454cf867ea81
     name: dolphin-operator
     type: application
     urls:
     - https://ccfish2.github.io/charts/dolphin-operator/dolphin-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-26T19:01:54.80915-07:00"
+generated: "2025-06-26T19:09:45.609782-07:00"
