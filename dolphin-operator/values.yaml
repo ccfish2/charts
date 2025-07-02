@@ -49,6 +49,11 @@ logController:
   enabled: true
   s3bucket: "s3://example-bucket"
 
+env: kind
+storage:
+  className: local-storage
+  size: 500Mi
+
 ingressController:
   loadbalancerMode: "dedicated"
   # enabled: false

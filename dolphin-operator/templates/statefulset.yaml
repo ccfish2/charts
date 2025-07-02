@@ -99,12 +99,20 @@ spec:
         configMap:
           name: dolphin-config
           defaultMode: 420
+    {{- if eq .Values.env "kind" }}
+      - name: log-volume
+        hostPath:
+          path: /mnt/disks/logs/pv
+          type: Directory
+    {{- end }}
+  {{- if eq .Values.env "bare-metal" }}
   volumeClaimTemplates:
-  - metadata:
-      name: log-volume
-    spec:
-      accessModes: [ReadWriteOnce]
-      storageClassName: local-storage
-      resources:
-        requests:
-          storage: 500Mi  # adjust as needed
+    - metadata:
+        name: log-volume
+      spec:
+        accessModes: [ "ReadWriteOnce" ]
+        storageClassName: {{ .Values.storage.className }}
+        resources:
+          requests:
+            storage: {{ .Values.storage.size }}
+  {{- end }}
