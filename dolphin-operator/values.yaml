@@ -5,10 +5,10 @@
 replicaCount: 2
 
 image:
-  repository: quay.io/hjimin/cilium-dev
+  repository: docker.io/jimin1/dolphin-operator-generic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "5019adddf13877fd7703e4b8e0e82151e2b4e73e"
+  tag: "10776f733ba4852be5b459fd8dbdc698296983de"
 
 enableGatewayApi: false 
 
