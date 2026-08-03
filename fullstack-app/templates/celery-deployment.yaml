@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "fullstack-app.fullname" . }}-celery
+spec:
+  replicas: {{ .Values.celery.replicaCount }}
+  selector:
+    matchLabels:
+      app: celery
+  template:
+    metadata:
+      labels:
+        app: celery
+    spec:
+      containers:
+      - name: celery-worker
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        command:
+          - celery
+        args:
+          - -A
+          - app.celery
+          - worker
+          - --loglevel=info
+          - --concurrency={{ .Values.celery.concurrency }}
