@@ -1,0 +1,47 @@
+replicaCount: 1
+
+image:
+  repository: jimin1/full-stack-tools
+  tag: b837d1a9dd12
+  pullPolicy: IfNotPresent
+
+namespace: dolphin
+
+service:
+  type: ClusterIP
+  port: 8000
+
+django:
+  replicaCount: 1
+  debug: true
+  secretKey: ""
+  allowedHosts:
+    - "*"
+
+redis:
+  enabled: true
+  image:
+    repository: redis
+    tag: "7"
+
+celery:
+  enabled: true
+  replicaCount: 1
+  concurrency: 4
+
+ingress:
+  enabled: false
+resources: {}
+autoscaling:
+  enabled: false
+
+
+postgres:
+  enabled: true
+  image:
+    repository: postgres
+    tag: "16"
+  database: fullstack
+  username: fullstack
+  password: fullstack
+  storage: 1Gi
