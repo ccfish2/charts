@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: jimin1/full-stack-tools
-  tag: eaa09405f187 # arm64
+  repository: jimin1/full-stack-tools-backend
+  tag: latest # arm64
   pullPolicy: IfNotPresent
 
 namespace: dolphin
