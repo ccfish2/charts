@@ -3,7 +3,17 @@ entries:
   fullstack-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-03T22:25:20.065645-07:00"
+    created: "2026-08-03T22:55:32.204171-07:00"
+    description: Helm chart for Django Full Stack Application
+    digest: 2db5033c5290b828ff37160b2f9758e124fdbdd9a5556abeca8d8ba7ab013377
+    name: fullstack-app
+    type: application
+    urls:
+    - https://ccfish2.github.io/charts/fullstack-app/fullstack-app-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-08-03T22:55:32.203857-07:00"
     description: Helm chart for Django Full Stack Application
     digest: f4bf36264b4db986f48d49a36400f090fcdce4be499806067b2936d2148df105
     name: fullstack-app
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-03T22:25:20.065377-07:00"
+    created: "2026-08-03T22:55:32.202075-07:00"
     description: Helm chart for Django Full Stack Application
     digest: e3d4b96cde0b11531170cb514c7c64bbb8ede11746048ce6e7a18998edbf3644
     name: fullstack-app
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://ccfish2.github.io/charts/fullstack-app/fullstack-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-03T22:25:20.06351-07:00"
+generated: "2026-08-03T22:55:32.201615-07:00"
