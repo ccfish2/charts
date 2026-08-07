@@ -23,3 +23,8 @@ spec:
           - worker
           - --loglevel=info
           - --concurrency={{ .Values.celery.concurrency }}
+        env:
+          - name: REDIS_HOST
+            value: "fullstack-app-rel-redis"
+          - name: REDIS_PORT
+            value: "6379"
