@@ -2,6 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "fullstack-app.fullname" . }}-celery
+  labels:
+    {{- include "fullstack-app.labels" . | nindent 4 }}
+    app: celery
 spec:
   replicas: {{ .Values.celery.replicaCount }}
   selector:
@@ -10,6 +13,7 @@ spec:
   template:
     metadata:
       labels:
+        {{- include "fullstack-app.labels" . | nindent 8 }}
         app: celery
     spec:
       containers:

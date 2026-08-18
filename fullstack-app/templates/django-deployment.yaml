@@ -2,6 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "fullstack-app.fullname" . }}-django
+  labels:
+    {{- include "fullstack-app.labels" . | nindent 4 }}
+    app: django
 spec:
   replicas: {{ .Values.django.replicaCount }}
   selector:
@@ -10,6 +13,7 @@ spec:
   template:
     metadata:
       labels:
+        {{- include "fullstack-app.labels" . | nindent 8 }}
         app: django
     spec:
       containers:
@@ -21,3 +25,9 @@ spec:
         envFrom:
         - configMapRef:
             name: {{ include "fullstack-app.fullname" . }}-config
+        readinessProbe:
+          httpGet:
+            path: /api/v1/hello
+            port: 8000
+          failureThreshold: 3
+          periodSeconds: 10
