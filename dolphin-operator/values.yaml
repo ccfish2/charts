@@ -8,7 +8,7 @@ image:
   repository: docker.io/jimin1/dolphin-operator-generic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "fa17030af634334ab373a74e8ad790226aa9882b"
+  tag: "439f1c067bff1676544cc952f41f2fcdb2df0a6d"
 
 enableGatewayApi: false 
 
