@@ -3,7 +3,7 @@ entries:
   dolphin-operator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-08-27T14:06:36.975741-07:00"
+    created: "2026-09-02T21:09:14.459322-07:00"
     description: A Helm chart for Kubernetes
     digest: cac21ac47b7ec56f128e6574e7c20d4d0a42678b3746986a1b41ecb93dbac911
     name: dolphin-operator
@@ -13,7 +13,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-08-27T14:06:36.975453-07:00"
+    created: "2026-09-02T21:09:14.45903-07:00"
     description: A Helm chart for Kubernetes
     digest: c28bf4267a8566b01b7b93746f96feef8bd8aaf42b58a69b3955211f61d79fa9
     name: dolphin-operator
@@ -23,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-08-27T14:06:36.975153-07:00"
+    created: "2026-09-02T21:09:14.458283-07:00"
     description: A Helm chart for Kubernetes
     digest: 806f20ee015339d606424abf4a5acbdcafbace21d50f81162481cc6f87475e91
     name: dolphin-operator
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://ccfish2.github.io/charts/dolphin-operator/dolphin-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-27T14:06:36.974534-07:00"
+generated: "2026-09-02T21:09:14.457705-07:00"
