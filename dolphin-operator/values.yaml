@@ -7,8 +7,7 @@ replicaCount: 2
 image:
   repository: docker.io/jimin1/dolphin-operator-generic
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: "cb4e624119e6baf58c1d6f7d7ab9e970deb6d9a5"
+  tag: "43fda2142263b22a256f57add97e9ba861dcacaa"
 
 enableGatewayApi: false 
 
