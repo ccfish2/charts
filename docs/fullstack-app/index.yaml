@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   fullstack-app:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2026-10-13T12:04:45.12382-07:00"
+    description: Helm chart for Django Full Stack Application
+    digest: 80b0e6672d1abadf2ccc80aa499dc13a153a138036674cedf16bf7f2c4e96ed5
+    name: fullstack-app
+    type: application
+    urls:
+    - https://ccfish2.github.io/fullstack-app/fullstack-app-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.58562-07:00"
+    created: "2026-10-13T12:04:45.123586-07:00"
     description: Helm chart for Django Full Stack Application
     digest: 68d04f082b0e98ac6f1679f70dd1307787bc1fb5e9f3e745841fa989f8b9a383
     name: fullstack-app
@@ -13,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.585087-07:00"
+    created: "2026-10-13T12:04:45.12331-07:00"
     description: Helm chart for Django Full Stack Application
     digest: 1e5edcc6275b20031b6e4726a8b038240196b98bfc521ac8df32c2aeddf7bcb1
     name: fullstack-app
@@ -23,7 +33,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.580558-07:00"
+    created: "2026-10-13T12:04:45.122129-07:00"
     description: Helm chart for Django Full Stack Application
     digest: 0751d8c1f619bd823fc62054e8b7bf6e410aa73b48e2920a5af13792dfeda719
     name: fullstack-app
@@ -33,7 +43,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.576845-07:00"
+    created: "2026-10-13T12:04:45.121256-07:00"
     description: Helm chart for Django Full Stack Application
     digest: 960956195f792a2c8d096ef2f44f67a28462c86863d233fde69fe114544c4e8d
     name: fullstack-app
@@ -43,7 +53,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.575897-07:00"
+    created: "2026-10-13T12:04:45.12054-07:00"
     description: Helm chart for Django Full Stack Application
     digest: c832edcdd13d93e0da02f32f58ffd49667a4142b47af068f2eae0217582d5353
     name: fullstack-app
@@ -53,7 +63,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.572546-07:00"
+    created: "2026-10-13T12:04:45.119161-07:00"
     description: Helm chart for Django Full Stack Application
     digest: 895966823fe14fac2e59b9633eba8e7f39a8054bb7c3894dd49867538f786742
     name: fullstack-app
@@ -63,7 +73,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.570202-07:00"
+    created: "2026-10-13T12:04:45.118929-07:00"
     description: Helm chart for Django Full Stack Application
     digest: 54c36a3604aea193d78201197dba3303aa8d98e9e651d8eef6cff1ebaae33118
     name: fullstack-app
@@ -73,7 +83,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.549362-07:00"
+    created: "2026-10-13T12:04:45.118669-07:00"
     description: Helm chart for Django Full Stack Application
     digest: 2db5033c5290b828ff37160b2f9758e124fdbdd9a5556abeca8d8ba7ab013377
     name: fullstack-app
@@ -83,7 +93,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.549046-07:00"
+    created: "2026-10-13T12:04:45.118363-07:00"
     description: Helm chart for Django Full Stack Application
     digest: f4bf36264b4db986f48d49a36400f090fcdce4be499806067b2936d2148df105
     name: fullstack-app
@@ -93,7 +103,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-10-12T13:13:37.548749-07:00"
+    created: "2026-10-13T12:04:45.118039-07:00"
     description: Helm chart for Django Full Stack Application
     digest: e3d4b96cde0b11531170cb514c7c64bbb8ede11746048ce6e7a18998edbf3644
     name: fullstack-app
@@ -101,4 +111,4 @@ entries:
     urls:
     - https://ccfish2.github.io/fullstack-app/fullstack-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-12T13:13:37.547973-07:00"
+generated: "2026-10-13T12:04:45.117255-07:00"

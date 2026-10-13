@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: jimin1/full-stack-tools-backend
-  tag: dc476d70191a5a00af52b2f542ef88d5c4f15a37
+  tag: 4bc74cd961e8e94e615d6c7350fe22cb23e14b19
   pullPolicy: IfNotPresent
 
 namespace: dolphin
