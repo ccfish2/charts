@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: docker.io/jimin1/dolphin-operator-generic
   pullPolicy: IfNotPresent
-  tag: "c32a4e7cc064080514e263c63313cf08ee35132e"
+  tag: "bef089a25b80c0a26a4e17995d283d29a47a726c"
 
 enableGatewayApi: false 
 

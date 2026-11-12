@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   dolphin-operator:
   - apiVersion: v2
+    appVersion: 1.16.4
+    created: "2026-11-12T11:43:06.077794-08:00"
+    description: fix ingress translator
+    digest: fd6993247140847d65a0ba28738958b6721c2b39d3c77925bead4fdbdaa4a93f
+    name: dolphin-operator
+    type: application
+    urls:
+    - https://ccfish2.github.io/charts/dolphin-operator/dolphin-operator-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
     appVersion: 1.16.3
-    created: "2026-11-12T08:29:19.229764-08:00"
+    created: "2026-11-12T11:43:06.077436-08:00"
     description: fix ingress translator
     digest: 7b1266acca11f27aa90ed84b324e268da5e8b893809fae507dcd48bf833f6035
     name: dolphin-operator
@@ -13,7 +23,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 1.16.3
-    created: "2026-11-12T08:29:19.229483-08:00"
+    created: "2026-11-12T11:43:06.077049-08:00"
     description: apply one operator instance on the cluster
     digest: af90978f9d5bcb60584fca3f3d7bc4ab5e1cd8d304d037f03741996eb077e146
     name: dolphin-operator
@@ -23,7 +33,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.3
-    created: "2026-11-12T08:29:19.228838-08:00"
+    created: "2026-11-12T11:43:06.076398-08:00"
     description: ingress and gatewayapi operator apply dolphinenvoyconfig CR and convert
       them into ciliumenvoyconfig \ for data plane cilium envoy consume
     digest: 38e54005fb48e78b859ebeb0c8fc949e3baf38ae1da58bdc72e68c9fd714621e
@@ -34,7 +44,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.2
-    created: "2026-11-12T08:29:19.228541-08:00"
+    created: "2026-11-12T11:43:06.075789-08:00"
     description: A Helm chart for Kubernetes dolphin operator
     digest: 8ad4947a17dc869fc617abf9e12eb657e6f50d45e4a6f1a200562732650433d8
     name: dolphin-operator
@@ -44,7 +54,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.16.2
-    created: "2026-11-12T08:29:19.228219-08:00"
+    created: "2026-11-12T11:43:06.075288-08:00"
     description: A Helm chart for Kubernetes dolphin operator
     digest: dec716fd6db968a5d30815846c1fba57e85539511f781d5b39ba77d2d2002f4d
     name: dolphin-operator
@@ -54,7 +64,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2026-11-12T08:29:19.227908-08:00"
+    created: "2026-11-12T11:43:06.074881-08:00"
     description: A Helm chart for Kubernetes dolphin operator
     digest: ff90accaf04296a37e27915e399af1f78e1c8a3ce241a438bd3a5840b56bce44
     name: dolphin-operator
@@ -64,7 +74,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-12T08:29:19.227583-08:00"
+    created: "2026-11-12T11:43:06.074255-08:00"
     description: A Helm chart for Kubernetes dolphin operator
     digest: 7f14e7a2ac920ce3bd62a59bdd0da112bc8303a9c4569ef3a4f7e6e523f02a4f
     name: dolphin-operator
@@ -74,7 +84,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-12T08:29:19.227162-08:00"
+    created: "2026-11-12T11:43:06.072133-08:00"
     description: A Helm chart for Kubernetes dolphin operator
     digest: 87eb9467dca53d08c7d95e85ddc47937c050420af5490820d8e5d763f1ff6f4f
     name: dolphin-operator
@@ -84,7 +94,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-12T08:29:19.226789-08:00"
+    created: "2026-11-12T11:43:06.071716-08:00"
     description: A Helm chart for Kubernetes
     digest: c907a77cbe0f037c4c25e50d0d8ce0370ef99fe55baaee3988e1e3622b857ebd
     name: dolphin-operator
@@ -94,7 +104,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-12T08:29:19.226357-08:00"
+    created: "2026-11-12T11:43:06.071248-08:00"
     description: A Helm chart for Kubernetes
     digest: cac21ac47b7ec56f128e6574e7c20d4d0a42678b3746986a1b41ecb93dbac911
     name: dolphin-operator
@@ -104,7 +114,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-12T08:29:19.224018-08:00"
+    created: "2026-11-12T11:43:06.070781-08:00"
     description: A Helm chart for Kubernetes
     digest: c28bf4267a8566b01b7b93746f96feef8bd8aaf42b58a69b3955211f61d79fa9
     name: dolphin-operator
@@ -114,7 +124,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-12T08:29:19.223654-08:00"
+    created: "2026-11-12T11:43:06.070272-08:00"
     description: A Helm chart for Kubernetes
     digest: 806f20ee015339d606424abf4a5acbdcafbace21d50f81162481cc6f87475e91
     name: dolphin-operator
@@ -122,4 +132,4 @@ entries:
     urls:
     - https://ccfish2.github.io/charts/dolphin-operator/dolphin-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-12T08:29:19.222766-08:00"
+generated: "2026-11-12T11:43:06.069449-08:00"
